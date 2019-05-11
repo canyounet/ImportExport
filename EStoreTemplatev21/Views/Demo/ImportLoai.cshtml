@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "ImportLoai";
+}
+
+<h2>Import Loai</h2>
+
+<form enctype="multipart/form-data" method="post">
+    Chọn file: <input type="file" name="fImport" />
+    <button>Import</button>
+</form>
+<h3 class="text-danger">@ViewBag.ThongBao</h3>
+
